@@ -1,4 +1,4 @@
-# [photosight.ru](photosight.ru) extension for Chrome
+# [photosight.ru](http://photosight.ru) extension for Chrome
 
 It adds quick download links to photos.
 
