@@ -1,0 +1,40 @@
+a.preview230 {
+  background-color: red;
+}
+
+.photo-big-230:hover a.dwnld, .bigphoto:hover a.dwnld, .pr.timer24:hover a.dwnld {
+  opacity: 0.8;
+}
+
+
+a.dwnld {
+  position: relative;
+  top: -240px;
+  left: 0;
+  z-index: 10;
+  opacity: 0.1;
+
+
+  color: #333333;
+  background-color: #999999;
+  text-decoration: none;
+  font-size: 12px;
+  width: 80px;
+  height: auto;
+  display: block;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+a.dwnld:hover {
+  color: #333333;
+}
+
+a.dwnld.big {
+  top: 30px;
+  left: 0;
+}
+ul.photolist li:hover a.dwnld {
+  opacity: 0.8;
+}
