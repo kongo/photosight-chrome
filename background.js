@@ -7,8 +7,8 @@ $(".photo-item.cols-item > a > img").after(function() {
 
 
 
-$("a#show_photo").before(function() {
-  var href = $("img#big_photo").attr("data-href").replace(/_thumb\.jpg/, '_xlarge.jpg');
+$("img#big_photo").before(function() {
+  var href = $(this).attr("href");
 
   return "<a class='dwnld big' href='" + href + "' download='YES!'>DWNLD</a>";
 });
