@@ -6,35 +6,36 @@ a.preview230 {
   opacity: 0.8;
 }
 
-
 a.dwnld {
-  position: relative;
-  top: -320px;
-  left: 0;
-  z-index: 10;
-  opacity: 0.1;
-
+  color: #333333;
+  background-color: #999999;
+  text-decoration: none;
+  font-size: 12px;
+  position: absolute;
+  opacity: 0.5;
+  padding: 8pt 13pt 8pt 13pt;
 
   color: #333333;
   background-color: #999999;
   text-decoration: none;
   font-size: 12px;
-  width: 80px;
-  height: auto;
-  display: block;
-
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
 }
+
 a.dwnld:hover {
-  color: #333333;
+  color: #ff0000;
+  opacity: 0.9;
+}
+
+.photo-item.cols-item:hover a.dwnld {
+  color: #ff0000;
+  opacity: 0.9;
 }
 
 a.dwnld.big {
   top: 30px;
   left: 0;
 }
+
 ul.photolist li:hover a.dwnld {
   opacity: 0.8;
 }

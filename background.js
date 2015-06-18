@@ -1,8 +1,8 @@
 
-$("a.preview230").after(function() {
-  var href = $(this).find("img").attr("src").replace(/_thumb\.jpg/, '_xlarge.jpg');
+$(".photo-item.cols-item > a > img").after(function() {
+  var href = $(this).attr("src").replace(/_thumb\.jpg/, '_xlarge.jpg');
 
-  return "<a class='dwnld' href='" + href + "' download='YES!' style=''>DWNLD</a>";
+  return "<a class='dwnld' href='" + href + "' download='YES!' style='left: " + (405 - $(this).width()) / 2 + "px'>DWNLD</a>";
 });
 
 
